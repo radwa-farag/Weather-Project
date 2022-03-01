@@ -1,0 +1,190 @@
+:root{
+    --main_color:#1E202B;
+    --text_color:#0977a6;
+    --baby_blueColor:#009AD8;
+}
+.bg_mainColor
+{
+    background-color: var(--main_color);
+}
+body
+{
+    background-color: var(--main_color);
+}
+h1
+{
+    font-size: 1rem;
+}
+.navbar-brand small
+{
+    font-size: 0.7rem;
+    color: gray;
+}
+.navbar-nav .nav-link.active
+{
+    color: var(--baby_blueColor);
+    border: 2px solid var(--baby_blueColor);
+}
+.navbar-nav .nav-link{
+    font-size: 0.9rem;
+    color: white;
+    border: 2px solid transparent;
+    transition: all 0.1s;
+    padding: 2px 25px !important;
+    margin: 0 5px;
+}
+.navbar-nav .nav-link:hover
+{
+    color: var(--baby_blueColor);
+    border: 2px solid var(--baby_blueColor);
+}
+.btn
+{
+    border: 1px solid transparent; 
+    border: 50%;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+.btn:hover
+{
+    border: 1px solid var(--baby_blueColor); 
+}
+.btn .member
+{
+    height: 2px;
+    width: 15px;
+    margin: 3px auto;
+    background-color: white;
+    transition: 0.5s all;
+}
+.btn:hover .member
+{
+    background-color: var(--baby_blueColor);
+}
+
+.mainContent
+{
+    background-image: url(../images/banner.png);
+    background-position: top center;
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+.findBtn
+{
+    background-color: var(--baby_blueColor);
+    top: 55px;
+    right: 20px;
+}
+
+
+.h-90
+{
+    height: 90%;
+}
+.tableContent
+{
+    color: gainsboro;
+    display: none;
+}
+.todayWeather .header ,.thirdDayWeather .header
+{
+    background-color: #2D303D;
+}
+.todayWeather .body , .thirdDayWeather .body
+{
+    background-color: #323544;
+}
+.todayWeather .temp
+{
+    font-size: 6rem;
+    font-weight: 700;
+}
+.todayWeather .icon
+{
+    margin: auto 0px;
+}
+.iconForecast
+{
+    width: 90px;
+}
+.city
+{
+    font-size: 1.1rem;
+}
+.mainContent .col-lg-4
+{
+    background-color: var(--main_color);
+    border-radius: 5px;
+}
+.secondDayWeather .header
+{
+    background-color: #222530;
+}
+.secondDayWeather .body
+{
+    background-color: #262936 ;
+}
+.secondDayWeather .highTemp , .thirdDayWeather .highTemp
+{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.todayWeather .header
+{
+    border-top-left-radius:5px ;
+}
+.todayWeather .body
+{
+    border-bottom-left-radius:5px ;
+}
+.thirdDayWeather .header
+{
+    border-top-right-radius:5px ;
+}
+.thirdDayWeather .body
+{
+    border-bottom-right-radius:5px ;
+}
+
+
+
+footer
+{
+    background-color: #262936;
+}
+.subscribeBtn
+{
+    background-color: var(--baby_blueColor);
+    top: 7px;
+    right: 10px;
+}
+.copyRight
+{
+    color:gainsboro;
+    font-size: 0.9rem;
+}
+.socialIcons a
+{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: var(--main_color);
+    transition: all 0.5s;
+}
+i
+{
+    color: var(--baby_blueColor);
+    font-size: 1.2rem;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+.socialIcons a:hover
+{
+    background-color: var(--baby_blueColor);
+}
+.socialIcons a:hover i
+{
+    color:white;
+}
